@@ -78,6 +78,7 @@ namespace KursASPMVC.Models
                         Category = "Piłka nożna",
                         Price = 275   
                     });
+                context.SaveChanges();
             }
         }
     }
