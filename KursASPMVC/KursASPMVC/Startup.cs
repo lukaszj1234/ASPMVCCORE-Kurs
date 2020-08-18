@@ -38,6 +38,10 @@ namespace KursASPMVC
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
+                    name: "pagination",
+                    template: "Produkty/Strona{productPage}",
+                    defaults: new {Controller = "Product", Action = "List"});
+                routes.MapRoute(
                     name: "default",
                     template: "{controller=Product}/{action=List}/{id?}");
             });

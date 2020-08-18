@@ -359,3 +359,4 @@ C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC.Tests\bin\D
 C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC.Tests\bin\Debug\netcoreapp3.1\KursASPMVC.dll
 C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC.Tests\bin\Debug\netcoreapp3.1\KursASPMVC.pdb
 C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC.Tests\obj\Debug\netcoreapp3.1\KursASPMVC.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC.Tests\bin\Debug\netcoreapp3.1\libman.json
