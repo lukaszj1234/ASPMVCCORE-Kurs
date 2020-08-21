@@ -30,3 +30,4 @@ C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\obj\Debug\n
 C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\obj\Debug\netcoreapp2.2\KursASPMVC.csprojAssemblyReference.cache
 C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\ProductSummary.cshtml.g.cs
+C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs

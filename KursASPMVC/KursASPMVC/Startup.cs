@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using KursASPMVC.Models;
+﻿using KursASPMVC.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -38,12 +33,24 @@ namespace KursASPMVC
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name: "pagination",
-                    template: "Produkty/Strona{productPage}",
-                    defaults: new {Controller = "Product", Action = "List"});
+                    name: null,
+                    template: "{category}/Strona{productPage:int}",
+                    defaults: new { Controller = "Product", action = "List" });
                 routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Product}/{action=List}/{id?}");
+                    name: null,
+                    template: "Strona{productPage:int}",
+                    defaults: new { Controller = "Product",
+                    action = "List", prodctPage = 1});
+                routes.MapRoute(
+                    name: null,
+                    template: "{category}",
+                    defaults: new { controller = "Product",
+                    action = "List", productPage = 1 });
+                routes.MapRoute(
+                    name: null,
+                    template: "",
+                    defaults: new {controller = "Product",
+                    action = "List",productPage = 1});
             });
             SeedData.EnsurePopulated(app);
         }

@@ -23,8 +23,13 @@ using KursASPMVC.Models.ViewModels;
 
 #line default
 #line hidden
+#line 3 "C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\Views\_ViewImports.cshtml"
+using KursASPMVC.Components;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ebe9abcea6c3010c93977b7261b306b45c90c36e", @"/Views/Shared/ProductSummary.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"635972289f7b4cc0091074482729e0f4f37ff86f", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"be06130f9cc47f22cb025ce4d2c6416249e68a48", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_ProductSummary : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Product>
     {
         #pragma warning disable 1998
