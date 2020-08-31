@@ -57,6 +57,5 @@ namespace KursASPMVC.Tests
                 + @"<a href=""Test/Page3"">3</a>",
                 output.Content.GetContent());
         }
-
     }
 }

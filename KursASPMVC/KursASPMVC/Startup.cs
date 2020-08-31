@@ -1,6 +1,7 @@
 ﻿using KursASPMVC.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -22,6 +23,10 @@ namespace KursASPMVC
                     Configuration["Data:SportStoreProducts:ConnectionString"]));
             services.AddMvc();
             services.AddTransient<IProductRepository, EFProductRepository>();
+            services.AddMemoryCache();
+            services.AddSession();
+            services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -30,6 +35,7 @@ namespace KursASPMVC
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
+            app.UseSession();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -51,6 +57,9 @@ namespace KursASPMVC
                     template: "",
                     defaults: new {controller = "Product",
                     action = "List",productPage = 1});
+                routes.MapRoute(
+                    name: null,
+                    template: "{controller}/{action}/{id}");
             });
             SeedData.EnsurePopulated(app);
         }

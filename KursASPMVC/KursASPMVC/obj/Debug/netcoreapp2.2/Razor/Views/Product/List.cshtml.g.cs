@@ -28,8 +28,13 @@ using KursASPMVC.Components;
 
 #line default
 #line hidden
+#line 4 "C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\Views\_ViewImports.cshtml"
+using KursASPMVC.Infrastructure;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c544f948f2a1c997aa0e9aaa9c09c2df9a8009a7", @"/Views/Product/List.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"be06130f9cc47f22cb025ce4d2c6416249e68a48", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"35ff93a7b55c7740722ce4dc0cdb208ee4433f61", @"/Views/_ViewImports.cshtml")]
     public class Views_Product_List : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ProductListViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("page-action", "List", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -88,7 +93,7 @@ Write(Html.Partial("ProductSummary", item));
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(123, 229, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c544f948f2a1c997aa0e9aaa9c09c2df9a8009a75461", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c544f948f2a1c997aa0e9aaa9c09c2df9a8009a75632", async() => {
             }
             );
             __KursASPMVC_Infrastructure_PageLinkTagHelper = CreateTagHelper<global::KursASPMVC.Infrastructure.PageLinkTagHelper>();

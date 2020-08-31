@@ -1,7 +1,6 @@
 ﻿using KursASPMVC.Models;
 using KursASPMVC.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Linq;
 
 namespace KursASPMVC.Controllers

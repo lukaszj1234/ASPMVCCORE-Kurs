@@ -28,8 +28,13 @@ using KursASPMVC.Components;
 
 #line default
 #line hidden
+#line 4 "C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\Views\_ViewImports.cshtml"
+using KursASPMVC.Infrastructure;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"768c1c842808d5f0234f1f511a993a6cfc4bf016", @"/Views/Shared/Components/NavigationMenu/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"be06130f9cc47f22cb025ce4d2c6416249e68a48", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"35ff93a7b55c7740722ce4dc0cdb208ee4433f61", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_NavigationMenu_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<string>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("btn btn-block btn-secondary"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -63,7 +68,7 @@ using KursASPMVC.Components;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(30, 141, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "768c1c842808d5f0234f1f511a993a6cfc4bf0165201", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "768c1c842808d5f0234f1f511a993a6cfc4bf0165372", async() => {
                 BeginContext(146, 21, true);
                 WriteLiteral("\r\n    Strona główna\r\n");
                 EndContext();
@@ -103,7 +108,7 @@ using KursASPMVC.Components;
             WriteLiteral("    ");
             EndContext();
             BeginContext(212, 255, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "768c1c842808d5f0234f1f511a993a6cfc4bf0167708", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "768c1c842808d5f0234f1f511a993a6cfc4bf0167879", async() => {
                 BeginContext(443, 9, true);
                 WriteLiteral("\r\n       ");
                 EndContext();

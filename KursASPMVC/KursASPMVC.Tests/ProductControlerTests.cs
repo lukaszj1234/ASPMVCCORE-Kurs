@@ -3,11 +3,8 @@ using KursASPMVC.Models;
 using KursASPMVC.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using Newtonsoft.Json.Linq;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices.ComTypes;
 using Xunit;
 
 namespace KursASPMVC.Tests
