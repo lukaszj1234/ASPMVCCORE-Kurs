@@ -13,7 +13,8 @@ namespace KursASPMVC.Models
         public int OrderId { get; set; }
         [BindNever]
         public ICollection<CartLine> Lines { get; set; }
-
+        [BindNever]
+        public bool Shipped { get; set; }
         [Required(ErrorMessage = "Proszę podać imię i nazwisko.")]
         public string Name { get; set; }
 
