@@ -37,3 +37,5 @@ C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\obj\Debug\n
 C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\obj\Debug\netcoreapp2.2\Razor\Views\Order\Completed.cshtml.g.cs
 C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\obj\Debug\netcoreapp2.2\Razor\Views\Order\List.cshtml.g.cs
 C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\Moje\Documents\GitHub\ASPMVCCORE-Kurs\KursASPMVC\KursASPMVC\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Edit.cshtml.g.cs

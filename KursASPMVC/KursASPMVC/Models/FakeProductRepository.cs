@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace KursASPMVC.Models
 {
-    public class FakeProductRepository : IProductRepository
+    public class FakeProductRepository 
     {
         public IQueryable<Product> Products => new List<Product> {
             new Product {Name = "Piłka nożna", Price = 25 },
