@@ -34,5 +34,15 @@ namespace KursASPMVC.Controllers
             }
             return View(product);
         }
+        public IActionResult Delete (int productId)
+        {
+            Product product = _productRepository.DeleteProduct(productId);
+            if (product != null)
+            {
+              TempData["message"] = $"Usunięto {product.Name}.";
+            }
+            return RedirectToAction(nameof(Index));
+        }
+        public ViewResult Create() => View(nameof(Edit), new Product());
     }
 }
