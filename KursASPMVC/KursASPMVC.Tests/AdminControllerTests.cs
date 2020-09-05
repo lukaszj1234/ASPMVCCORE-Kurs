@@ -69,6 +69,25 @@ namespace KursASPMVC.Tests
             //Assert
             Assert.Null(result);
         }
+
+        [Fact]
+        public void Can_Delete_Valid_Product()
+        {
+            Product product = new Product { ProductID = 2, Name = "P2" };
+            //Arrange
+            Mock<IProductRepository> mock = new Mock<IProductRepository>();
+            mock.Setup(m => m.Products).Returns(new Product[] {
+                new Product {ProductID = 1, Name = "P1" },
+                product,
+                new Product {ProductID = 3, Name = "P3" },
+            }.AsQueryable<Product>);
+            AdminController target = new AdminController(mock.Object);
+            //Act
+            target.Delete(product.ProductID);
+
+            //Assert
+            mock.Verify(m => m.DeleteProduct(product.ProductID));
+        }
         private T GetViewModel<T>(IActionResult result) where T : class
         {
             return (result as ViewResult)?.ViewData.Model as T;

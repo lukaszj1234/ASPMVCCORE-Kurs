@@ -1,10 +1,12 @@
 ﻿using KursASPMVC.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 
 namespace KursASPMVC.Controllers
 {
     [Route("[controller]/[action]")]
+    [Authorize]
     public class AdminController : Controller
     {
         private IProductRepository _productRepository;
